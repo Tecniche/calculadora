@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color:#ED4343;
+}
+.calculadora {
+    width:30%;
+    margin:auto;
+    margin-top: 5rem;
+}
+.display {
+    color: white;
+    height: 30px;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+    padding: 0.7rem;
+    align-items: center;
+    font-size: 2rem;
+}
+.calculadora-keys {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+button {
+    border-style: hidden;
+    font-size: 1.7rem;
+}
+.cuatro{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.cinco {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.seis {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+.equal {
+    grid-column: 4 / 5;
+    grid-row: 2 / 6;
+    height: 100%;
+}
